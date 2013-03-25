@@ -101,6 +101,9 @@ def format_string(writes, byte_offset, string_size, current_length, debug=False)
 	format_string = format_start + format_end
 	return format_string + "B" * (string_size - len(format_string))
 
+def formatstring_fuckyeah(writes, byte_offset, string_size, printed_count, debug=False):
+	print 'FuckYeah mode: ON'
+	return format_string(writes, byte_offset, string_size, printed_count, debug)
 
 def main():
 	writes = ((0x45397010, 0x01020304),\
