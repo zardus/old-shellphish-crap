@@ -1,0 +1,22 @@
+Shellnoob notes
+
++ features
+- python 2.4+
+- relying only on as and objdump
+- interactive mode (ins~>opcode, opcode~>ins)
+- shellcode with starting breakpoint?
+
+- inputs: shell, obj, bin, hex
+- outputs: shell, obj, bin, hex, exe, C, python, bash, ruby, pretty
+  (.pretty ~> like .S, but with the binary associated to each instruction:
+  the opposite is like objdump's output)
+
++ modes
+- convert
+- interactive
+
++ TODO
+- python 3.0 support
+- readline interactive shell
+- constant support! (on-the-fly!)
+- 32/64bits switch!
